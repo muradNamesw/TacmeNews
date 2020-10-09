@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_hint_text">#9B9B9B</color>
+
+
+
+    <color name="pinEntryBorderColor">#9B9B9B</color>
+
+
+
+    <color name="colorPrimary">#005CB9</color>
+    <color name="colorPrimaryDark">#111f90</color>
+    <!--<color name="colorAccent">#005CB9</color>-->
+    <color name="colorAccent">#0B37A0</color>
+
+    <color name="colorSilver">#ADB5BD</color>
+    <color name="colorSignUp">#21C0DC</color>
+    <color name="colorList">#26005CB9</color>
+    <color name="black">#FF343A40</color>
+    <color name="black_trans">#343A40</color>
+    <color name="black_loading">#80000000</color>
+    <color name="black_full">#000000</color>
+    <color name="black_50">#50000000</color>
+    <color name="lightGray">#f9f9f9</color>
+    <color name="lightGray3">#D7DCE1</color>
+    <color name="white">#ffffff</color>
+    <color name="white50">#50ffffff</color>
+    <color name="blue">#2f5b78</color>
+    <color name="silver">#d6d6d6</color>
+    <color name="silver_dark">#a7a7a7</color>
+    <color name="bg">#fff8ee</color>
+    <color name="grey">#3f5364</color>
+    <color name="red">#F78181</color>
+    <color name="redDark">#c82929</color>
+    <color name="green">#2AC798</color>
+    <color name="green_circle">#C0EB75</color>
+    <color name="yellow">#FFE066</color>
+    <color name="orange">#FF8787</color>
+    <color name="black_text">#FF868E96</color>
+    <color name="main_blue">#057AFF</color>
+    <color name="main_gray">#FFAAAAAA</color>
+    <color name="lineColor">#E6E7E8</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="font_onboardin">#A9CDFA</color>
+    <color name="app_back">#ebebeb</color>
+
+    <color name="headingCellColor">#868E96</color>
+    <color name="valueCellColor">#343A40</color>
+    <color name="showMoreColor">#343A40</color>
+    <color name="arrowColor">#6B6B6B</color>
+    <color name="detailsTitleColor">#0C0C0C</color>
+
+    <color name="login_header">#5594ca</color>
+    <!--<color name="login_header">#4a7cc0</color>-->
+
+
+    <color name="dark_gray">#343A40</color>
+    <color name="purple">#91A7FF</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="lightStatusTint">#91928f</color>
+
+    <color name="support_twitter">#1dc1dd</color>
+    <color name="delete_back">#FFEC5E38</color>
+    <color name="red_file">#ED0000</color>
+
+
+    <color name="gray_circle">#F0F0F0</color>
+    <color name="app_back2">#FAFAFA</color>
+    <color name="gray_hint">#9B9B9B</color>
+
+
+    <color name="reports_orange">#F4A040</color>
+    <color name="verify">#D8EBF1</color>
+
+    <color name="tabActive">#00bff3</color>
+    <color name="tabInActive">#929292</color>
+
+    <color name="tabActiveColor">#868e96</color>
+    <color name="tabInActiveColor">#a9afb5</color>
+
+
+    <color name="accepted">#2AC798</color>
+    <color name="pending">#F8D162</color>
+    <color name="draft">#343A40</color>
+    <color name="rejected">#F78181</color>
+    <color name="unknown">#FFFFFF</color>
+
+
+
+    <color name="transparent2">#00ffffff</color>
+    <color name="white2">#ffffff</color>
+    <color name="whiteF2">#f2f2f2</color>
+    <color name="black2">#000</color>
+
+    <color name="lightGreen">#4cd964</color>
+    <color name="orange2">#f39200</color>
+    <color name="warmOrange">#f87362</color>
+    <color name="darkBlue">#2d324f</color>
+    <color name="greenBlue">#4cbdd9</color>
+    <color name="lightRed">#ee8080</color>
+    <color name="lightBlue">#10c3f3</color>
+    <color name="purple2">#441752</color>
+    <color name="lightGray2">#f9f9f9</color>
+    <color name="duskYellow">#ffce31</color>
+    <color name="lightGray6F">#6f6f6f</color>
+    <color name="statusBarBGColor">#9f9f9f</color>
+
+
+    <color name="detailsItemLabelColor">#868E96</color>
+    <color name="detailsItemValueColor">#90FFFFFF</color>
+
+
+</resources>

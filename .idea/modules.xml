@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FasahPass.iml" filepath="$PROJECT_DIR$/.idea/modules/FasahPass.iml" group="FasahPass" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="FasahPass/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listable/listable.iml" filepath="$PROJECT_DIR$/.idea/modules/listable/listable.iml" group="FasahPass/listable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ummalqura-calendar/ummalqura-calendar.iml" filepath="$PROJECT_DIR$/.idea/modules/ummalqura-calendar/ummalqura-calendar.iml" group="FasahPass/ummalqura-calendar" />
+    </modules>
+  </component>
+</project>

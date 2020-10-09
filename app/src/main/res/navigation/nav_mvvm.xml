@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsMVVMListFragment"
+    >
+
+    <fragment
+        android:id="@+id/newsMVVMListFragment"
+        android:name="com.tacme.news.view.mvvm.fragment.NewsMVVMListFragment"
+        tools:layout="@layout/fragment_mvvm_news_list">
+
+        <action
+            android:id="@+id/action_NewsMVVMListFragment_to_DescriptionFragment"
+            app:destination="@id/descriptionFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.tacme.news.view.DescriptionFragment"
+        tools:layout="@layout/description_fragment">
+
+
+
+    </fragment>
+
+
+</navigation>

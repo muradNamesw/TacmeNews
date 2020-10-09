@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Listable</string>
+    <string name="empty"></string>
+    <string name="msg_failed">Unknown error! Please try again later.</string>
+    <string name="msg_failed_unknown_error">Unknown error!</string>
+    <string name="msg_connection_needed">Check your internet connection then try again.</string>
+    <string name="hint_search">Search</string>
+    <string name="msg_network_connection">Check your Internet connection</string>
+</resources>

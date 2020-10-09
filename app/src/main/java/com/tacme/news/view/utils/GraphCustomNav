@@ -1,0 +1,58 @@
+/*val navOptions = NavOptions.Builder().setPopUpTo(R.id.importDetailsFragment, true).build()
+                    //findNavController().navigate(R.id.action_notification_to_import_details, args, navOptions)
+
+                    findNavController().navigateSafe(R.id.action_notification_to_declaration, R.id.importDetailsFragment, args, navOptions);
+                    //findNavController().navigate(R.id.action_notification_to_import_details, args)*/
+
+/**/
+/*
+var navController = findNavController()
+
+val inflatedGraph = findNavController().navInflater.inflate(R.navigation.declaration)
+
+val navGraph = findNavController().graph
+navGraph.addDestination(ActivityNavigator(globalContext).createDestination().apply {
+    id = R.id.importDetailsFragment
+    setComponentName(ComponentName(context, ImportDetailsFragment::class.java))
+    // or setIntent
+})
+navGraph.startDestination = R.id.importDetailsFragment
+findNavController().graph = navGraph
+*/
+
+/*val navHost = this.activity?.supportFragmentManager?.findFragmentById(R.id.nav_host_container) as NavHostFragment?
+
+navHost?.let { navHostObj ->
+
+    val navController = navHostObj.navController
+    val navInflater = navController.navInflater
+
+    val graph = navInflater.inflate(R.navigation.declaration)
+
+    //graph.arguments = intent.extras
+
+    graph.startDestination = R.id.importDetailsFragment
+
+    navController?.graph = graph
+}*/
+
+/*
+    val navOptions = NavOptions.Builder().setPopUpTo(R.id.importDetailsFragment, true).build()
+    findNavController().navigate(R.id.action_notification_to_import_details, args, navOptions)
+*/
+
+/*
+//val startDestination = intent.getIntExtra("navigationStartDestination", 0)
+val navHostFragment    = this.activity?.supportFragmentManager?.findFragmentById(R.id.nav_host_container) as NavHostFragment?
+//val inflater         = this.navController.navInflater
+//val graph            = inflater.inflate(R.navigation.declaration)
+
+val graph              = findNavController().navInflater.inflate(R.navigation.declaration)
+
+graph.startDestination              = R.id.importDetailsFragment
+
+navHostFragment?.navController?.graph = graph
+
+//findNavController().navigate(R.id.action_notification_to_import_details, args)
+
+findNavController().navigateSafe(R.id.action_import_to_details, R.id.importDetailsFragment)*/

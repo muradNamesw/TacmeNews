@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin12">
+
+    <com.tacme.news.components.custom.CustomEditText
+        android:id="@+id/etxt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_blue_border"
+        android:gravity="left"
+        android:hint="@string/hint_search"
+        android:imeOptions="actionSearch"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/margin8"
+        android:paddingLeft="@dimen/margin36"
+        android:paddingRight="@dimen/margin36"
+        android:paddingTop="@dimen/margin8"
+        android:singleLine="true"
+        android:textColor="@color/red"
+        android:textSize="@dimen/font_medium_plus"
+        />
+
+    <ImageView
+        android:id="@+id/img_cancel_search"
+        android:layout_width="@dimen/margin20"
+        android:layout_height="@dimen/margin20"
+        android:layout_alignRight="@+id/etxt_search"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/margin4"
+        android:layout_marginRight="@dimen/margin8"
+        android:layout_marginTop="@dimen/margin4"
+        android:padding="@dimen/margin2"
+        android:src="@drawable/ic_search_cancel"/>
+
+    <ImageView
+        android:id="@+id/img_search"
+        android:layout_width="@dimen/margin20"
+        android:layout_height="@dimen/margin20"
+        android:layout_alignLeft="@+id/etxt_search"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/margin4"
+        android:layout_marginLeft="@dimen/margin8"
+        android:layout_marginTop="@dimen/margin4"
+        android:src="@drawable/ic_search"/>
+</RelativeLayout>

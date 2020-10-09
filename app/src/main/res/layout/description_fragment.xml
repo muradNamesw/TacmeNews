@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isEmpty"
+            type="boolean" />
+
+        <variable
+            name="descriptionViewModel"
+            type="com.tacme.news.viewmodels.mvvm.DescriptionViewModel" />
+
+
+    </data>
+
+    <FrameLayout
+        android:background="@color/lightGray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/descrptionTextView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+android:text="dkjashdkjashdkjashkjasdhkjads"
+            />
+    </FrameLayout>
+<!--    android:text='@{descriptionViewModel.description == "null" ? "-" : descriptionViewModel.description}'-->
+
+    <!--</FrameLayout>-->
+
+</layout>
+
+

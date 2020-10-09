@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_list_divider">#F0F0F0</color>
+    <color name="gray_toolbar">#262626</color>
+    <color name="orange">#FFDC60</color>
+    <color name="orange_transparent">#40FFDC60</color>
+    <color name="blue">#919191</color>
+    <color name="blue_transparent">#C03170AB</color>
+    <color name="blue_transparent2">#403170AB</color>
+    <color name="blue_transparent3">#A03170AB</color>
+    <color name="red">#F0474A</color>
+
+</resources>

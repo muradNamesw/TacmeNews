@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_login_activity"
+            android:orientation="vertical">
+
+
+
+
+            <com.tacme.news.components.custom.CustomTextView
+                android:id="@+id/mvpButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/value50"
+                android:ems="10"
+                android:inputType="phone"
+                android:textColor="@color/white"
+                android:text="MVP"
+                android:textSize="@dimen/value17"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/value55"
+                android:background="@drawable/rectangle_login_black_activity"
+                android:layout_marginStart="@dimen/value25"
+                android:layout_marginEnd="@dimen/value25"
+                />
+
+            <com.tacme.news.components.custom.CustomTextView
+                android:id="@+id/mvvmButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/value50"
+                android:layout_marginStart="@dimen/value25"
+                android:layout_marginTop="@dimen/value55"
+                android:layout_marginEnd="@dimen/value25"
+                android:background="@drawable/rectangle_login_black_activity"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="phone"
+                android:text="MVVM"
+                android:textColor="@color/white"
+                android:textSize="@dimen/value17" />
+
+
+        </LinearLayout>
+
+
+</layout>

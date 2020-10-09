@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TacmeNews</string>
+
+    <string name="empty_value"></string>
+    <string name="error_dialog__title">Error Dialog</string>
+    <string name="error_desc__message_no_internet">Message</string>
+    <string name="common_error__no_internet">common_error__no_internet</string>
+    <string name="common_error__server_error">common_error__server_error</string>
+    <string name="common_error__unknown_error">common_error__unknown_error</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="done">Done</string>
+    <string name="title_activity_news_m_v_p">NewsMVPActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

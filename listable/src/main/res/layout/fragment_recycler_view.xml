@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+		android:id="@+id/swipeRefreshLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:enabled="false">
+
+		<!-- This FrameLayout is needed ONLY IF sticky headers are used, in order to
+			 display the refresh circle on the top of sticky_header_layout.
+			 If you need to drag items, SwipeRefreshLayout must be disabled! -->
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recycler_view"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
+
+			<!-- Needed by FlexibleAdapter for headers to be sticky.
+				 This little layout is included in the library.
+				 If you need to drag items, SwipeRefreshLayout must be disabled!-->
+			<include layout="@layout/sticky_header_layout"/>
+
+		</FrameLayout>
+
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AspectRatioFrameLayout">
+        <attr name="aspectRatio" format="float" />
+
+    </declare-styleable>
+
+    <attr name="customFont" format="enum">
+        <enum name="BOLD" value="0" />
+        <enum name="MEDIUM" value="1" />
+    </attr>
+
+
+    <declare-styleable name="CustomTabLayout">
+        <attr name="customFont" />
+        <attr name="tabChecked" format="boolean" />
+    </declare-styleable>
+
+    <attr name="custom_icon" format="reference" />
+    <attr name="custom_title" format="reference" />
+    <attr name="isChecked" format="boolean" />
+
+    <declare-styleable name="Tab">
+        <attr name="custom_icon" />
+        <attr name="custom_title" />
+        <attr name="isChecked" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomTab">
+        <attr name="inactive_image"  format="reference" />
+        <attr name="active_image"    format="reference" />
+
+        <attr name="inactive_color"  format="integer"   />
+        <attr name="active_color"    format="integer"   />
+
+        <attr name="weight"          format="float"     />
+
+        <attr name="text"            format="string"    />
+
+        <attr name="checked"         format="boolean"   />
+    </declare-styleable>
+
+    <declare-styleable name="GifView">
+        <attr name="gif"    format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomCoordinatorLayoutStyle">
+    </declare-styleable>
+
+    <declare-styleable name="CustomStyleAppBar">
+        <attr name="showBack"         format="boolean"   />
+        <attr name="showFilter"       format="boolean"   />
+        <attr name="showDone"         format="boolean"   />
+        <attr name="showNotification" format="boolean"   />
+        <attr name="title"            format="string"    />
+        <attr name="bgColor"          format="color"     />
+        <attr name="bgResource"       format="reference" />
+        <attr name="tintColor"        format="color"     />
+        <attr name="isFragment"       format="boolean"   />
+        <attr name="isTransparent"    format="boolean"   />
+    </declare-styleable>
+
+</resources>
