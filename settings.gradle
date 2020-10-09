@@ -1,2 +1,2 @@
-rootProject.name='FasahPass'
+rootProject.name='TacmeNews'
 include ':app', ':listable', ':ummalqura-calendar'

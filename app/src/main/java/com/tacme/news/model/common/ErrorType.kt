@@ -1,4 +1,4 @@
-package tabadul.fasah.model.enums
+package com.tacme.news.model.enums
 
 import com.tacme.news.R
 

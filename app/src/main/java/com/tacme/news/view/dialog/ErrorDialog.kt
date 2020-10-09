@@ -4,9 +4,9 @@ import android.app.Dialog
 import android.content.Context
 import android.view.View
 import android.widget.ImageView
-import tabadul.fasah.model.enums.ErrorType
 import com.tacme.news.R
 import com.tacme.news.components.custom.CustomTextView
+import com.tacme.news.model.enums.ErrorType
 
 /**
  * Created by Murad Adnan on 2020-01-07.

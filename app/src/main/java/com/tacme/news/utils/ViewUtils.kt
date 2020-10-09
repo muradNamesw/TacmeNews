@@ -2,7 +2,7 @@ package com.tacme.news.utils
 
 import android.app.Activity
 import androidx.appcompat.app.AlertDialog
-import tabadul.fasah.model.enums.ErrorType
+import com.tacme.news.model.enums.ErrorType
 import com.tacme.news.R
 import com.tacme.news.app.MyApplication
 import com.tacme.news.helpers.DownloadError

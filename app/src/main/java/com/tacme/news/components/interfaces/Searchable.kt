@@ -1,4 +1,4 @@
-package tabadul.fasah.components.interfaces
+package com.tacme.news.components.interfaces
 
 interface Searchable {
     val searchKey: String?

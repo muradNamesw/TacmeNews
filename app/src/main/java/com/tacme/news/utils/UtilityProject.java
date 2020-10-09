@@ -18,16 +18,16 @@ import com.tacme.news.R;
 public class UtilityProject {
 
 
-    public static final String LANGUAGE = "LANGUAGE_PROJECT_FASAH_SA";
-    public static final String USER_NAME = "USER_NAME_FASAH_SA";
-    public static final String NAME = "NAME_LOGIN_FASAH_SA";
-    public static final String TOKEN_LOGIN = "TOKEN_LOGIN_FASAH_SA";
-    public static final String LAST_NO = "LAST_NO_FASAH_SA";
-    public static final String TYPE_LOGIN = "TYPE_LOGIN_FASAH_SA";
+    public static final String LANGUAGE = "LANGUAGE_PROJECT_TACME_SA";
+    public static final String USER_NAME = "USER_NAME_TACME_SA";
+    public static final String NAME = "NAME_LOGIN_TACME_SA";
+    public static final String TOKEN_LOGIN = "TOKEN_LOGIN_TACME_SA";
+    public static final String LAST_NO = "LAST_NO_TACME_SA";
+    public static final String TYPE_LOGIN = "TYPE_LOGIN_TACME_SA";
     public static String LANGUAGE_PAGE = "LANGUAGE_PAGE";
     public static String FIRST_TIME = "FIRST_TIME";
-    public static final String USER_TYPE = "USER_APP_FASAH_SA";
-    public static final String USER_ROLES = "USER_ROLES_FASAH_SA";
+    public static final String USER_TYPE = "USER_APP_TACME_SA";
+    public static final String USER_ROLES = "USER_ROLES_TACME_SA";
 
     public static final String arabic = "\u06f0\u06f1\u06f2\u06f3\u06f4\u06f5\u06f6\u06f7\u06f8\u06f9";
 
